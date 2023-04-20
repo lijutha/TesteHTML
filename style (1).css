@@ -1,0 +1,44 @@
+body{
+    font-family: 'Arvo', serif;
+}
+
+   .descricao{
+    background-image: linear-gradient(#79c779, #ffffff);
+    color: rgb(0, 0, 0);
+    padding: 3%;
+}
+
+.estudante-imagem{
+    width: 85%;
+    height: 70%;
+    padding: 15px, 75px;
+}
+
+.estudante-icone{
+    width: 24px;
+}
+
+.estudante-texto{
+    text-align: center;
+    padding: 50px;
+}
+
+.tudo-sobre-os-estudantes{
+    display: grid;
+    grid-template-columns: 22% 20% 20% 20% 20%;
+}
+
+.rodapé{
+    background-color:#79c779;
+    text-align: center;
+}
+
+.radapé-imagem{
+    height: 60px;
+    padding: 12px 0;
+}
+
+#borderDemo {
+    border: 5px double #ffffff;
+    border-radius: 30px 30px 30px 30px;
+}

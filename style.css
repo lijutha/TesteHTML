@@ -1,0 +1,86 @@
+body{
+    font-family: 'Arvo', serif;
+    background-image: linear-gradient(#ffffff, #79c779);
+}
+
+.cabecalho{
+    background-color: #79c779;
+    color:#ffffff;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    padding: 1%;
+}
+
+ul {
+    
+    width:100%; 
+    float:left; 
+    text-align:center; 
+
+}
+
+li {
+
+    padding-right: 20px;
+    display: inline-block;
+    list-style:none;
+
+}
+
+li .menu {
+
+   font-family: 'open_sansbold';
+   font-size:1.6em;
+   text-decoration: none;
+   color:#ffffff;
+   -webkit-border-box: 0 1px 0 0 #ffffff;
+   border-bottom: 4px solid transparent;
+}
+
+li .menu:hover {
+    
+    border-bottom:4px solid #fffcfc;
+}
+
+.imagem-do-cabecalho{
+ width: 15%;
+ height: 15%;
+ padding: 0 65px;
+}
+
+.descricao{
+    background-image: linear-gradient(#79c779, #ffffff);
+    color: rgb(0, 0, 0);
+    padding: 3%;
+    display: flex;
+}
+
+.texto{
+    display: inline-block;
+}
+
+.texto-da-robótica{
+    text-align: center;
+    padding: 50px;
+}
+
+.t1{
+    display: inline-block;
+    margin: 20px 20px;
+}
+
+.rodapé{
+    background-color:#79c779;
+    text-align: center;
+}
+
+.radapé-imagem{
+    height: 60px;
+    padding: 12px 0;
+}
+
+#borderDemo {
+    border: 5px double #ffffff;
+    border-radius: 30px 30px 30px 30px;
+    }
